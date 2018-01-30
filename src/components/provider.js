@@ -116,7 +116,7 @@ export default class IntlProvider extends Component {
       const {locale, defaultLocale, defaultFormats} = config;
 
       if (process.env.NODE_ENV !== 'production') {
-        console.error(
+        console.log(
           `[React Intl] Missing locale data for locale: "${locale}". ` +
             `Using default locale: "${defaultLocale}" as fallback.`
         );
